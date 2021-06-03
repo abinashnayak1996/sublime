@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script>
+		$(function() {
+			$('#btnsubmit').click(function(){
+				$('#lblname').html($('#txtname').val());
+				$('#lblcity').html($('#lblcity').val());
+			})
+			
+		})
+	</script>
+</head>
+<body>
+	<h2>Register</h2>
+	<div>
+		<dl>
+			<dt>Name</dt>
+			<dd><input type="text" id="txtname"></dd>
+		</dl>
+		<dl>
+			<dt>City</dt>
+			<dd>
+				<select>
+					<option>Delhi</option>
+					<option>Hyderabad</option>
+					<option>Bangalore</option>
+				</select>
+			</dd>
+		</dl>
+		<button type="button" id="btnsubmit">Submit</button>
+	</div>
+	<div>
+		<h2>Details</h2>
+		<dl>
+			<dt>Name</dt>
+			<dd id="lblname"></dd>
+			<dt>City</dt>
+			<dd id="lblcity"></dd>
+		</dl>
+
+	</div>
+	
+</body>
+</html>

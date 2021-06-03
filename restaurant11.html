@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<title>Resorvation Form</title>
+	<style >
+		{
+			box-sizing: 
+			border-box;
+			padding: 0;
+			margin: 0;
+		}
+		body{
+			font-family: 
+			'poppins',
+			sans-serif;
+			background-image: url(https://etimg.etb2bimg.com/photo/75161189.cms);
+			cover:no-repeat;
+			display: flex;
+			flex-direction: 
+			column;
+			justify-content:center;
+			align-items: center; 
+
+
+		}
+		form select,form input{
+			display: block;
+			width:100%;
+			margin: 15px 12px;
+			padding: 5px;
+			font-size: 15px;
+			font-family: 'poppins'
+			sans-serif;
+			outline: none;border: none;
+			border-bottom: 1px solid;
+			font-weight: 300;
+		}
+		
+
+		}
+	</style>
+</head>
+<body>
+	<section class="banner">
+		<h2 style='color:yellow'>BOOK YOUR TABLE NOW</h2>
+		<div class='card-container'>
+			<div class="card-img">
+				<!--image here-->
+
+			</div>
+			<div class="card-content">
+				<h3 style='color:yellow'>Resorvation</h3>
+				<form>
+					<div class=
+					"form-row">
+						<select name=
+						'days'>
+							<option value='day-select'>select Day
+							</option>
+							<option value='sunday'>sunday</option>
+							<option value='monday'>monday</option>
+							<option value='tuesday'>tuesday</option>
+							<option value='wednesday'>wednesday</option>
+							<option value='thursday'>thursday</option>
+							<option value='friday'>friday</option>
+							<option value='saturday'>saturday</option>
+							
+							
+							
+				
+					    </select>
+					    <select name='hours'>
+					    	<option value="hour-select">Select Hours</option>
+					    	<option value="10">10:00</option>
+					    	<option value="12">12:00</option>
+					    	<option value="14">14:00</option>
+					    	<option value="16">16:00</option>
+					    	<option value="18">18:00</option>
+					    	<option value="20">20:00</option>
+					    	<option value="22">22:00</option>
+
+					    </select>
+
+					</div>
+
+					<div class="form-row">
+						<label for="fname">First name:</label><br>
+						<input type="text" placeholder="Full Name">
+
+						<input type="number" placeholder="Phone Number">
+					<div class='form-row'>
+						<input type="text" placeholder="Location">
+
+						<input type="number" placeholder="number of sits">
+
+						<input type="number" placeholder="Table Size">
+					</div>
+						
+					</div>
+
+					
+					<div class="form-row">
+						<input type="number" placeholder="How Many Person?" min='1'>
+
+						<input type="submit" value="BOOK TABLE">
+					
+					</div>
+
+				</form>
+			</div>
+			
+		</div>
+	 </section>
+</body>
+</html>

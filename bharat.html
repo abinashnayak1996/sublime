@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width-device-width,initial-scale=1.0">
+
+	<title></title>
+	<link rel="stylesheet" href="https//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js">
+	<link rel="stylesheet" href="style.css">
+
+	<style>
+		*{
+			padding:0px;
+			margin:0px;
+            box-sizing: border-box;
+		}
+		.visit{
+			width:100%;
+			display:flex;
+			margin:0px;
+			margin-left:250px;
+
+		}
+		.btn1{
+			border:1px solid #fff;
+		
+			background:transparent;
+			border-radius: 15px;
+			width:30%;
+			margin:0px 50px;
+			box-shadow: 10px 10px 68px -6px rgba(0,0,0,5);
+	
+			cursor: pointer;
+			font-size: 16px;
+			font-family: sans-serif;
+			font-weight: bold;
+			color:white;
+			padding:5px;
+
+			background-color: navy;
+
+		}
+
+		.inner{
+			height:75%;
+			width:70%;
+			position: absolute;
+			top:50%;
+			left:50%;
+			transform: translate(-50%,-50%);
+			box-shadow: 10px 10px 68px -6px rgba(0,0,0,0.5);
+			display:flex;
+			justify-content: space-between;
+			background-color: navy;
+			border-radius: 20px;
+		}
+		.photo{
+			width: 50%;
+			height: 50%;
+			padding: 0 50px;
+			margin-top: 120px;
+			margin-left: 80px;
+
+
+
+		}
+		 
+		.photo img{
+			width: 60%;
+			height:80%;
+			border-radius: 150px;
+			
+			
+		}
+		.user-form{
+			background:rgb(245,245,245);
+			
+			padding: 50px;
+			width:50%;
+			height:100%;
+			
+		}
+		
+		
+		.user-form i{
+			position: absolute;
+			margin:25px 10px;
+			color:#6c63ff;
+		}
+		input{
+			width:100%;
+			height:3em;
+			border:none;
+			border-radius: 30px;
+			font-size: 15px;
+			margin: 10px 0;
+			padding:0 30px;
+			box-shadow: 10px 10px 68px -6px rgba(0,0,0,0.5);
+
+
+
+		}
+		
+		
+		span:nth-child(2){
+			background-color: #fffc00;
+		}
+		span:nth-child(3){
+			background-color: #fffc00;
+		}
+		.action-btn{
+			width:100%;
+			display:flex;
+			margin:20px 0;
+
+		}
+		.btn{
+			border:1px solid #fff;
+			padding: 10px;
+			background:transparent;
+			border-radius: 20px;
+			width:50%;
+			margin: 0 100px;
+			cursor: pointer;
+			font-size: 16px;
+			font-family: sans-serif;
+			font-weight: bold;
+			color:white;
+
+			background-color: blue;
+		}
+		.primary{
+			border:none;
+			background:linear-gradient(45deg,rgba(222,197,51,1)24%,rgba(255,107,0,1)100%);
+		}
+		.tag{
+			color:green;
+			padding:30px 0;
+			margin:0px 60px;
+			font-weight: bold;
+			
+
+
+		}
+	
+	</style>
+</head>
+<body>
+
+	<div class="inner">
+	
+		
+		<div class="photo">
+			
+
+			
+			<img src="C:\Users\abinash\Downloads\bharat.jpeg">
+
+		</div>
+		
+		<div class="user-form" >
+			<div class="visit">
+			<button class="btn1" >Visit Our Site</button>
+		    </div>
+		    <div class="tag">
+		    	<h3 style="font-style: oblique;">we keep everything</h3>
+		     	<h1 >Ready To Login</h1>
+		    </div>
+		   
+		
+			<form >
+			
+				<i class="fas fa-envelope"></i>
+				<input type="email" name="email" placeholder="Email" >
+				<i class="fas fa-lock"></i>
+				<input type="password" name="password" placeholder="Password" >
+				
+				<div class="action-btn">
+				
+					<button class="btn">Login</button>
+				</div>
+			</form>
+			
+		</div>
+		
+	</div>
+
+</body>
+</html>
